@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid red;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+}
+.hell{
+    position: relative;
+    margin-top: 45px;
+    margin-left: 340px;
+}
+.equal-columns > * {
+    flex: 1;
+}
+
+.navbar {
+    text-align: right;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar span {
+    display: inline-block;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.navbar span i{
+    color: #286bee;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.hero{
+     margin: 42px;    
+     color: #cf363e;
+     font-size: 110%;
+     font-family: sans-serif;
+}
+
+.search{
+    position:absolute;
+    margin: 38px;
+    margin-left: 120px;
+    padding: 8px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+
+.detail{
+    font-family: sans-serif;
+    margin-right: 50%;
+    margin-top: 17%;
+    padding-left: 65px;
+}
+.hi{
+    margin-right: 22%;
+}
+.button{
+    border: none;
+    width: 100px;
+    height: auto;
+    margin: 15px;
+    padding: 13px 18px;
+    background-color: #cf363e;
+    margin-right: 66%;
+    width: 28%;
+}
+
+.shop{
+    color: white;
+    text-decoration: none;
+}
+.sub{
+    margin-right: 42%;
+    padding: 2px;
+
+}
+.subt{
+    margin-left: 3%;
+    padding: 2px;
+}
+
+.subtitle{
+    margin-left: 2.5%;
+    padding: 2px;
+}
+.firstphoto{
+    margin-left: 55%;
+    margin-top: -23%;
+}
+
+hr.line{
+    border-top: 3px solid red;
+    border-radius: 3px;
+}
+.project-title{
+    font-size: 210%;
+    padding-top: 5%;
+}
+
+.headerr{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.headerrr{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.arrivals{
+    padding-block: 4px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.shoes{
+    height: 240px;
+    width: 240px;
+    padding-block: 4px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.checked, .unchecked {
+    color: red;
+    text-align: left;
+}
+.check{
+    border: red;
+    /* color: white; */
+}
+
+.middlines{
+    border-top: 10px solid whitesmoke;
+}
+
+.band{
+    margin-top: 1px;
+    margin-left: 300px;
+    width: 270px;
+   
+}
+
+.heading{
+    display: flex;
+    padding-top: 5px;
+    background-color: red; 
+    background-image: linear-gradient(to right, white , red);
+}
+
+.heading1{
+    display: inline-flex;
+    margin-top: 40px;
+    margin-right: 200px;
+    font-size: 75%;
+   
+}
+.heading2{
+    margin-top: 1px;
+    margin-right: 260px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.shopbutton{
+    border: none;
+    width: 100px;
+    height: auto;
+    margin: 15px;
+    padding: 13px 18px;
+    background-color: rgb(177, 15, 15);
+    margin-right: 66%;
+    width: 28%;
+    margin-right: 334px;
+}
+.lo{
+    margin-right: 1px;
+    display: inline;
+}
+.animi{
+     margin-right: 248px;
+     display: inline-flex;
+}
+.feat{
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+
+.card{
+    display: flex;
+    padding-top: 50px;
+}
+
+.container{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.cric{
+    border-radius: 50%;
+}
+.bold{
+    font-weight: bold;
+    font-size: 200%;
+}
+.head{
+    display: flex;
+    padding: 80px 80px 80px 80px;
+    
+}
+.photo{
+    margin-top: 18px;
+    margin-left: 6%;
+}
+.abc{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.xyz{
+    padding: 50px;
+    text-align: left;
+}
+.help{
+    padding: 50px;
+    text-align: left;
+}
+.es{
+    padding-right: 20px;
+}
+.esrule{
+    display: flex;
+    justify-content: left;
+}
+.hero2{
+    color: #cf363e;
+     font-size: 110%;
+     font-family: sans-serif;
+}
+
+.crickeball-custom{
+    height: 80px;
+    width: 80px;
+}
+
+.boldd{
+    font-weight: bold;
+}
